@@ -1,0 +1,23 @@
+{
+    "emails": [
+      {
+        "id": 1,
+        "sender": "john.doe@example.com",
+        "subject": "Meeting Reminder",
+        "body": "Hi team, Just a reminder that we have a meeting scheduled for tomorrow at 10 AM. Please make sure to prepare your updates."
+      },
+      {
+        "id": 2,
+        "sender": "jane.smith@example.com",
+        "subject": "Vacation Plans",
+        "body": "Hey everyone, I'll be on vacation next week. Please handle any urgent matters before I'm out. Thanks!"
+      },
+      {
+        "id": 3,
+        "sender": "marketing@example.com",
+        "subject": "New Product Launch",
+        "body": "Hello all, We're excited to announce our upcoming product launch. Get ready for an amazing reveal!"
+      }
+    ]
+  }
+  

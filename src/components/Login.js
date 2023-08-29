@@ -1,4 +1,6 @@
+// components/Login.js
 import React, { useState } from 'react';
+import '../styles/Login.css';
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState('');
@@ -9,7 +11,7 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div>
+    <div className="login-form">
       <h2>Login</h2>
       <input
         type="text"
