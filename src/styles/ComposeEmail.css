@@ -1,0 +1,56 @@
+/* styles/ComposeEmail.css */
+.compose-email {
+    background-color: #fff;
+    padding: 2vh;
+    border-radius: 1vw;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Add this line to prevent overflow */
+  }
+  
+  .compose-email h2 {
+    margin-top: 0;
+    font-size: 3vw;
+  }
+  
+  .form-group {
+    margin-bottom: 2vh;
+    overflow: hidden; /* Add this line to prevent overflow */
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 2vh;
+    border: 0.1vw solid #ccc;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    box-sizing: border-box; /* Add this line to include padding and border in width */
+    overflow: hidden; /* Add this line to prevent overflow */
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 30vh;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2vh 4vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styling as needed */
+  

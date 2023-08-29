@@ -1,0 +1,41 @@
+/* styles/EmailListItem.css */
+.email-list-item {
+  margin-bottom: 2vh;
+}
+
+.email-item {
+  background-color: white;
+  border: 0.1vw solid #e0e0e0;
+  border-radius: 1vw;
+  padding: 2vh;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.email-item:hover {
+  background-color: #f8f8f8;
+}
+
+.email-details {
+  display: flex;
+  align-items: center;
+}
+
+.email-sender {
+  font-weight: bold;
+  margin-right: 2vw;
+}
+
+.email-summary {
+  display: flex;
+  align-items: center;
+}
+
+.email-subject {
+  margin-right: 2vw;
+  font-weight: bold;
+}
+
+.email-body-preview {
+  color: #666;
+}

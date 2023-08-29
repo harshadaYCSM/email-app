@@ -1,0 +1,43 @@
+/* styles/EmailScreen.css */
+.email-screen {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 2vh;
+    background-color: #f0f0f0;
+    border-radius: 2vw;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-screen h1 {
+    margin-top: 0;
+    font-size: 3vw;
+  }
+  
+  .navigation-links {
+    display: flex;
+    gap: 2vw;
+    margin-top: 2vh;
+  }
+  
+  .navigation-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 2vh 3vh;
+    border-radius: 1vw;
+    background-color: #fff;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .navigation-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  main {
+    margin-top: 2vh;
+  }
+  
+  /* Add more styling as needed */
+  

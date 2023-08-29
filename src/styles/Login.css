@@ -1,29 +1,47 @@
-/* styles/login.css */
-.login-form {
-    padding: 20px;
-    border: 1px solid #e0e0e0;
-    max-width: 300px;
+/* styles/Login.css */
+.login-container {
+    max-width: 80vw;
     margin: 0 auto;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 1vw;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
   }
   
-  .login-form h2 {
-    margin-bottom: 10px;
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .login-form label {
+    font-weight: bold;
+    font-size: 2vw;
   }
   
   .login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    padding: 1.5vh;
+    border: 0.1vw solid #ccc;
+    border-radius: 1vw;
+    font-size: 1.5vw;
   }
   
   .login-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
     background-color: #007bff;
-    color: white;
+    color: #fff;
+    padding: 2vh 4vh;
     border: none;
+    border-radius: 1vw;
+    font-size: 1.5vw;
     cursor: pointer;
+    transition: background-color 0.2s;
   }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styling as needed */
   

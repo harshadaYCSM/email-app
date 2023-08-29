@@ -17,6 +17,18 @@
         "sender": "marketing@example.com",
         "subject": "New Product Launch",
         "body": "Hello all, We're excited to announce our upcoming product launch. Get ready for an amazing reveal!"
+      },
+      {
+        "id": 4,
+        "sender": "support@example.com",
+        "subject": "Technical Support",
+        "body": "Hello, We've received your support request. Our team will get back to you shortly with a solution."
+      },
+      {
+        "id": 5,
+        "sender": "newsletter@example.com",
+        "subject": "Monthly Newsletter",
+        "body": "Greetings, Check out our latest newsletter with exciting updates, articles, and promotions."
       }
     ]
   }
