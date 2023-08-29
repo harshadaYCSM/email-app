@@ -4,10 +4,10 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
-import Login from '../components/Login';
+import Login from './Login';
 import EmailList from '../components/EmailList';
 import EmailDetail from '../components/EmailDetail';
-import ComposeEmail from '../components/ComposeEmail';
+import ComposeEmail from './ComposeEmail';
 import '../styles/EmailScreen.css';
 
 const EmailScreen = () => {
